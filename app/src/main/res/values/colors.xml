@@ -5,4 +5,9 @@
     <color name="colorAccent">#FF4081</color>
     <color name="black">#0D0D0D</color>
     <color name="colorXian">#806B6E6D</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="color_cursor">#11e40d</color>
+    <color name="color_rate">#bef3b2</color>
+    <color name="color_black">#000000</color>
+    <color name="color_rate_top">#f8f8f8</color>
 </resources>

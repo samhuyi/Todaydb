@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorWhite">
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/fenge"
+        android:text="为你的习惯设置名称"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/habitname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hint"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:background="@null"
+        android:textCursorDrawable="@drawable/editcursor"
+        android:lineSpacingExtra="20dp"
+        android:gravity="center_vertical"
+        android:textSize="60sp"/>
+
+</RelativeLayout>
