@@ -33,7 +33,7 @@
                 android:textSize="18sp"
                 android:background="@drawable/ratecolor"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="chooseRate"/>
             <TextView
                 android:id="@+id/rate_02"
                 android:layout_width="match_parent"
@@ -44,7 +44,7 @@
                 android:textSize="18sp"
                 android:background="@drawable/ratecolor"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="chooseRate"/>
             <TextView
                 android:id="@+id/rate_03"
                 android:layout_width="match_parent"
@@ -55,7 +55,7 @@
                 android:textSize="18sp"
                 android:background="@drawable/ratecolor"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="chooseRate"/>
             <TextView
                 android:id="@+id/rate_04"
                 android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                 android:textSize="18sp"
                 android:background="@drawable/ratecolor"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="chooseRate"/>
             <TextView
                 android:id="@+id/rate_05"
                 android:layout_width="match_parent"
@@ -77,7 +77,7 @@
                 android:textSize="18sp"
                 android:background="@drawable/ratecolor"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="chooseRate"/>
             <TextView
                 android:id="@+id/rate_06"
                 android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                 android:textSize="18sp"
                 android:background="@drawable/ratecolor"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="chooseRate"/>
             <TextView
                 android:id="@+id/rate_07"
                 android:layout_width="match_parent"
@@ -99,7 +99,7 @@
                 android:textSize="18sp"
                 android:background="@drawable/ratecolor"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="chooseRate"/>
 
 
         </LinearLayout>
