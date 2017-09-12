@@ -5,4 +5,5 @@ package com.example.administrator.bean;
  */
 
 public class test {
+    123
 }
