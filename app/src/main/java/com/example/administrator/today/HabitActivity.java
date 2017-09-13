@@ -50,6 +50,15 @@ public class HabitActivity extends AppCompatActivity {
         setContentView(R.layout.activity_habit);
         bindView();
         setDefaultView();
+        TextView gosetting= (TextView) findViewById(R.id.goSetting);
+        //HabitActivity设置按钮跳转SettingActivity
+        gosetting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(HabitActivity.this,SettingActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
