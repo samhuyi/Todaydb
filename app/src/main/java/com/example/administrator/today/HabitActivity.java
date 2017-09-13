@@ -4,9 +4,8 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.graphics.Color;
-import android.provider.ContactsContract;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -50,15 +49,6 @@ public class HabitActivity extends AppCompatActivity {
         setContentView(R.layout.activity_habit);
         bindView();
         setDefaultView();
-        TextView gosetting= (TextView) findViewById(R.id.goSetting);
-        //HabitActivity设置按钮跳转SettingActivity
-        gosetting.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(HabitActivity.this,SettingActivity.class);
-                startActivity(intent);
-            }
-        });
 
     }
 
@@ -125,5 +115,8 @@ public class HabitActivity extends AppCompatActivity {
     }
     public void AddHabit(View view){
         startActivity(new Intent(HabitActivity.this,AddHabitActivity.class));
+    }
+    public void setting(View view){
+        startActivity(new Intent(HabitActivity.this,SettingActivity.class));
     }
 }

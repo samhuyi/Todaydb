@@ -4,8 +4,8 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -13,9 +13,6 @@ import android.widget.TextView;
 
 import com.example.administrator.fragment.AddHabit_Name;
 import com.example.administrator.fragment.AddHabit_Rate;
-
-import java.util.Timer;
-import java.util.TimerTask;
 
 public class AddHabitActivity extends AppCompatActivity {
     private EditText habitname;//习惯名称

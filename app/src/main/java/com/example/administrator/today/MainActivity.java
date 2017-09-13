@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,EditcustomActivity.class);
+                Intent intent=new Intent(MainActivity.this,CalendarActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,23 +1,14 @@
 package com.example.administrator.fragment;
 
 import android.app.Fragment;
-import android.content.Context;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.administrator.today.R;
-
-import java.util.Timer;
-import java.util.TimerTask;
-
-import static android.content.Context.INPUT_METHOD_SERVICE;
 
 /**
  * Created by lenovo on 2017/9/6.
