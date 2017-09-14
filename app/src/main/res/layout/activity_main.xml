@@ -9,7 +9,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/mmm"/>
+                android:src="@mipmap/mmm"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -19,7 +19,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/goHabit"
-                    android:background="@drawable/menu"
+                    android:src="@mipmap/menu"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"/>
                 <LinearLayout
@@ -31,7 +31,6 @@
                         android:id="@+id/today"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_above="@+id/name"
                         android:layout_marginLeft="10dp"
                         android:text="今日应做"
                         android:textStyle="bold"
@@ -43,7 +42,6 @@
                         android:id="@+id/name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_above="@+id/rate"
                         android:layout_marginLeft="10dp"
                         android:text="我问问"
                         android:textSize="38sp"
@@ -64,13 +62,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/success"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginLeft="10dp"/>
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/success"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -90,7 +88,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/fiveb"
+                            android:src="@mipmap/fiveb"
                             android:layout_marginTop="5dp"
                             android:layout_marginLeft="2dp"/>
                     </LinearLayout>
@@ -99,13 +97,11 @@
                           android:layout_height="wrap_content"
                           android:id="@+id/day"
                           android:layout_gravity="center_horizontal"
-                          android:background="@drawable/downa"/>
+                          android:src="@mipmap/downa"/>
                 </LinearLayout>
 
             </RelativeLayout>
         </FrameLayout>
-
-
 </RelativeLayout>
 
 
